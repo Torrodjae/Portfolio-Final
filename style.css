@@ -218,3 +218,13 @@ a:hover{text-decoration:underline}
   text-align:center;
   color:var(--deep-blue);
 }
+
+/* Prevent HOME buttons from overlapping on mobile */
+@media (max-width: 600px) {
+  .cta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+
