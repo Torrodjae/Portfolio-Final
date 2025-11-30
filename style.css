@@ -157,11 +157,8 @@ h1, h2, h3 {
 /* ========= RESUME ========= */
 .resume-row {
   display: flex;
-  justify-content: space-between;   /* NEW: spreads items evenly */
   align-items: center;
-  width: 100%;
-  max-width: 800px;                  /* NEW: cleaner alignment */
-  margin-top: 15px;
+  gap: 20px;
 }
 
 /* QR Code display */
@@ -170,7 +167,6 @@ h1, h2, h3 {
   height: auto;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0,0,0,0.15);
-  margin-left: auto;                 /* NEW: pushes QR to right side */
 }
 
 /* ========= CONTACT FORM ========= */
@@ -246,6 +242,7 @@ input:focus, textarea:focus {
   box-shadow: 0 5px 15px rgba(0,0,0,0.25);
   margin-top: 10px;
   padding: 10px;
+  display: none;
 }
 
 #chat-log {
@@ -294,16 +291,5 @@ input:focus, textarea:focus {
   .cta-row .btn.outline {
     width: 100%;
     text-align: center;
-  }
-
-  .resume-row {
-    flex-direction: column;  /* makes QR stack for mobile */
-    gap: 20px;
-    max-width: 100%;
-  }
-
-  .qr-img {
-    margin-left: 0;          /* centered on mobile */
-    margin-right: 0;
   }
 }
