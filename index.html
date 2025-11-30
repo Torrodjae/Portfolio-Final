@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Torrodjae Somerville — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Portfolio of Torrodjae Somerville — CTEC 426 project, contact, resume." />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Torrodjae Somerville</h1>
+      <p class="tag">Computer Technology • Systems • Security</p>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Project</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="panel">
+      <div class="home-inner">
+
+        <div class="portrait-wrap" aria-hidden="false">
+          <svg class="portrait" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Letter T logo">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#2E5A75" />
+                <stop offset="1" stop-color="#7BAF9E" />
+              </linearGradient>
+
+              <filter id="f1" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#122831" flood-opacity="0.18" />
+              </filter>
+            </defs>
+
+            <rect width="100%" height="100%" rx="18" fill="#F4F7F8" />
+
+            <g transform="translate(20,20)" filter="url(#f1)">
+              <path d="M40 20 L140 20 L140 40 L100 40 L100 130 L80 130 L80 40 L40 40 Z" fill="url(#g1)" />
+            </g>
+          </svg>
+        </div>
+
+        <div class="home-text">
+          <h2>Welcome</h2>
+          <p>
+            I am <strong>Torrodjae Somerville</strong> — a 22 year old Computer Technology student at
+            <strong>Bowie State University</strong>. I previously attended <strong>Baltimore City College High School</strong>,
+            and the <strong>University of Maryland Eastern Shore</strong>. My focus areas include database administration,
+            systems administration, Microsoft 365 management, automation workflows, and small-to-medium network security & 
+            disaster planning.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">My Project</a>
+            <a class="btn outline" href="#resume">View Resume</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ABOUT -->
+    <section id="about" class="panel spaced-more">
+      <h2>About Me</h2>
+
+      <div class="grid-3">
+
+        <div class="card">
+          <h3>Skills</h3>
+          <ul>
+            <li>Microsoft 365 Administration (Exchange, SharePoint, Teams, OneDrive)</li>
+            <li>Active Directory & Group Policy management</li>
+            <li>Zoho Creator & Deluge scripting</li>
+            <li>Power Automate & Power Apps integration</li>
+            <li>Endpoint management & database design</li>
+            <li>Technical support & staff training</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Experience</h3>
+          <ul>
+            <li>Account management, onboarding/offboarding, and documentation for multi-house environments.</li>
+            <li>Designed workflows to automate weekly exception reporting across 9 facilities.</li>
+            <li>Maintained Microsoft 365 tenant components and resolved user access issues.</li>
+            <li>Pulled data transaction forms for Walmart.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Educational Background</h3>
+          <ul>
+            <li>Bowie State University — Computer Technology (in progress)</li>
+            <li>University of Maryland Eastern Shore — Computer Science (1 year)</li>
+            <li>Baltimore City College High School — High School Diploma</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- PROJECT (UPDATED) -->
+    <section id="projects" class="panel spaced-more">
+      <h2>Project</h2>
+
+      <article class="project single">
+        <h3>CTEC 426 — Data-Driven Used Car Pricing Analysis</h3>
+
+        <p>
+          This project focuses on developing a <strong>data-driven approach</strong> to assessing fairness and pricing accuracy in
+          the used car market. Using Austin Reese’s national Craigslist dataset of over 426,000 used car listings, the project
+          analyzes how factors like age, mileage, condition, usage intensity, and vehicle type influence real-world vehicle pricing.
+        </p>
+
+        <p>
+          I performed extensive <strong>data cleaning</strong>, <strong>feature engineering</strong>, and 
+          <strong>market segmentation</strong> to create a refined dataset and extract actionable insights. New variables 
+          such as <em>vehicle age</em>, <em>miles per year</em>, and <em>Edmunds-based price tiers</em> were engineered to improve interpretability 
+          and help identify fair pricing ranges, potential overpricing, and market behavior among different manufacturers and vehicle categories.
+        </p>
+
+        <p><strong>What I demonstrated:</strong></p>
+        <ul>
+          <li>Large-scale dataset cleaning and refinement (over 426k entries)</li>
+          <li>Feature engineering (Age, Miles-Per-Year, Price Tiers)</li>
+          <li>Outlier detection and realistic boundary filtering</li>
+          <li>Correlation analysis of major pricing factors</li>
+          <li>Market segmentation across vehicle types and conditions</li>
+          <li>Identification of fair-value trends and pricing anomalies</li>
+          <li>Proposal for a future FairPrice automated valuation tool</li>
+
+          <li>
+            <strong>Project Repository Link:</strong>
+            <a href="https://github.com/Torrodjae/Data-Driven-Used-Car-Pricing-Project/blob/main/README.md"
+               target="_blank">View Full Project on GitHub</a>
+          </li>
+        </ul>
+
+      </article>
+    </section>
+
+
+
+    <!-- RESUME -->
+    <section id="resume" class="panel spaced-more">
+      <h2>Resume</h2>
+      <p>Open or download my resume:</p>
+
+      <div class="resume-row">
+        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Open Resume</a>
+        <div id="qr-placeholder" class="qr-box">QR Code<br>Here</div>
+      </div>
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="panel spaced-more">
+      <h2>Contact Me</h2>
+      <p>If you’d like to reach out, send me a message using the form below.</p>
+
+      <form id="contactForm" class="contact-grid">
+
+        <div class="field-group">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="field-group">
+          <label for="email">Your Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="field-group-full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <p id="contactStatus" class="small" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Torrodjae Somerville • CTEC Final</p>
+  </footer>
+
+
+
+  <!-- CHATBOT -->
+  <div id="chatbox" aria-live="polite">
+    <button id="chat-toggle" title="Open chat">Chat</button>
+
+    <div id="chat-window" aria-hidden="true">
+      <div id="chat-log" role="log"></div>
+
+      <div class="chat-input">
+        <input id="chat-text" placeholder="Ask about skills, experience, project, or availability" />
+        <button id="chat-send">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
