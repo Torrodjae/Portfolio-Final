@@ -228,3 +228,18 @@ a:hover{text-decoration:underline}
   }
 }
 
+/* Fix contact form overflow on mobile */
+@media (max-width: 600px) {
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .field-group-full {
+    grid-column: 1 !important;
+  }
+
+  #contactForm input,
+  #contactForm textarea {
+    width: 100% !important;
+  }
+}
