@@ -167,9 +167,9 @@ function botRespond(q){
     fuzzyContains(q, ["project","426","network","security"])
   ){
     appendBot(
-      "My CTEC 426 project is a network and security design for a small-to-medium environment. " +
-      "It covers VLAN segmentation, role-based access control, device hardening steps, and a risk mitigation checklist, " +
-      "with documentation that an operations team could actually follow."
+      "My CTEC 426 project is a Data-Driven Used Car Pricing analysis. " +
+      "I examined how age, mileage, condition, and other market factors affect used car prices., " +
+      "The project involved cleaning the data, building visual charts, studying depreciation patterns, and presenting recommendations for estimating fair-value price ranges."
     );
     return;
   }
@@ -177,4 +177,5 @@ function botRespond(q){
   // FALLBACK
   appendBot("I didn’t recognize that. Try asking about: skills, experience, my project, or availability.");
 }
+
 
